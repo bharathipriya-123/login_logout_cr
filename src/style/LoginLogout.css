@@ -1,0 +1,109 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://cdn.pixabay.com/photo/2021/12/14/20/21/book-6871220_640.jpg" );
+    opacity:0.7;
+    backdrop-filter:10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container1 {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    
+  }
+
+  h2 {
+    margin-bottom: 1.5rem;
+    color: #333333 !important;
+  }
+  
+  form div {
+    margin-bottom: 1rem;
+    text-align: left;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color:blue !important;
+    font-size:35px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1rem;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+   
+  }
+
+  input:focus {
+    outline: none;
+    
+  }
+
+  p {
+    color:aqua;
+   font-size: 25px;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+  }
+  
+  
+  h1 {
+    color:darkblue;
+    margin-bottom: 1.5rem;
+  }
+  
+  button.logout {
+    background-color: #e74c3c;
+   
+  }
+  
+  button.logout:hover {
+    background-color: #c0392b;
+  }
+  
+  
+  .loading {
+    width: 30px;
+    height: 30px;
+    border: 4px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 4px solid #4CAF50;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+  } 
+  
+  
